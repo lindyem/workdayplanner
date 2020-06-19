@@ -75,9 +75,9 @@ function renderTimeBoxes() {
 
   for (var i = 0; i < localStorage.length; i++) {
     var timeBlockId = "#" + localStorage.key(i);
-    $(timeBlockId)[0].children[1].value = localStorage.getItem(
-      localStorage.key(i)
-    );
+    $(timeBlockId)
+      .children(".description")
+      .val(localStorage.getItem(localStorage.key(i)));
   }
 }
 
