@@ -1,4 +1,4 @@
-var currentHour = moment().hour();
+var currentHour = 9;
 
 function renderTimeBoxes() {
   if (currentHour === 9) {

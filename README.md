@@ -1,21 +1,23 @@
 # workdayplanner
-Calendar Application 
 
+Calendar Application
 
 ## Link
 
-https://lindyem.github.io/codingquiz/
+https://lindyem.github.io/workdayplanner/
 
 ## Description
 
-Project consists of a vanilla Javascript quiz game. User chooses correct answers and is awarded a highscore based on their time. If the user selects the correct answer they progress, if they select incorrectly they lose 10 seconds and do not progress.
+Project consists of a day planner calendar app made with moment.js and JQuery. Saves user input into local storage and retrieves it on refresh.
 
 ## Technology Used
 
 - HTML5
 - CSS3
-- JAVASCRIPT
+- JQUERY
+- moment.js
 
 #Screenshot \*![alt text](./img/1.png "screenshot")
 #Screenshot \*![alt text](./img/2.png "screenshot")
 #Screenshot \*![alt text](./img/3.png "screenshot")
+#Screenshot \*![alt text](./img/4.png "screenshot")
